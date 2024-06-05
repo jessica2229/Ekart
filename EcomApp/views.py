@@ -290,9 +290,6 @@ def buy(req,prod_id):
 
 
 
-
-
-
 """ def sendUserMail():
     
     orders = Order.objects.filter(user = req.user,is_completed = False)
